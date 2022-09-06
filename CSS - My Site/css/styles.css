@@ -1,0 +1,139 @@
+/* ELEMENTS */
+/* FONTS AVAILIBLE */
+/* 'Comic Neue', cursive 'Dancing Script', cursive 'Saira Condensed', sans-serif */
+a {
+  color: #11999E;
+  font-family: 'Comic Neue', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 50px;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Saira Condensed', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%
+}
+
+p {
+  font-size:200%;
+  line-height: 2;
+}
+
+/* CLASSES */
+.bottom {
+background-color: #66BFBF;
+height: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 200px;
+  left: 500px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Comic Neue', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  }
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.circular {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.computer {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.tablet {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 700px;
+}
